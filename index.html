@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<section id="section1">
+    <div class="flex_container">
+        <img class="centered image" src="images/alice_cover_blue.png" style="width:600px;height:600px;">
+        <button class="centered button" onclick='hideSection("section1"); showSection("section2");'>Open</button>
+    </div>
+</section>
+
+<section id="section2">
+    <div class="flex_container">
+        <p>Alice wants to become a queen.<br>Red Queen said, "Alice, if you manage to get through<br>my chess board, I'll make you the White Queen!"<br>Let's help Alice!</p>
+        <img class="centered image" src="images/redqueen.jpg" style="width:600px;height:600px;">
+        <button class="centered button" onclick='hideSection("section2"); showSection("section3"); playBackgroundMusic();'>Start</button><br>
+    </div>   
+ </section>
+
+<section id="section3">
+    <div id="canvasHost">
+        <p>Move Alice towards the upper side of the chess board.<br> 
+            If she escapes chess figures, she will be a queen. <br>
+            If not, she will fall in the well.<br>
+            Go, Alice, go!</p>
+    </div>
+</section>
+
+<section id="section4">
+    <div class="flex_container">
+        <img class="centered image" src="images/alice_queen_3.webp" style="width:600px;height:600px;"><br>  
+        <button class="centered button"" onclick="window.location='index.html'">Play Again</button>
+    </div>
+</section>
+
+<section id="section5">
+    <div class="flex_container">
+        <img class="centered image" src="images/alice_falling_down.png" style="width:400px;height:400px;">
+        <button class="centered small_button"" onclick=" window.location='index.html'">Play Again</button>
+    </div>
+</section>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

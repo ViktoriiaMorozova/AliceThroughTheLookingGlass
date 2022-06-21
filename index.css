@@ -1,0 +1,78 @@
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.centered {
+    align-self: center;
+}
+
+.image {
+    border-radius: 20px;
+    border-style: outset;
+}
+
+.button {
+    border-style: 2px solid;
+    border-radius: 8px;
+    border-color: rgb(112, 59, 59);
+    color: rgb(112, 20, 20);
+    background-color: rgb(192, 142, 142);
+    width: 600px;
+    align-self: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.button:hover {
+    background-color: black;
+    color: rgb(116, 61, 61);
+    opacity: 1;
+}
+
+.small_button {
+    border-style: 2px solid;
+    border-radius: 8px;
+    border-color: rgb(112, 59, 59);
+    color: rgb(112, 20, 20);
+    background-color: rgb(192, 142, 142);
+    width: 400px;
+    align-self: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.small_button:hover {
+    background-color: black;
+    color: rgb(116, 61, 61);
+    opacity: 1;
+}
+
+#section2 {
+    display: none;
+}
+
+#section3 {
+    display: none;
+    flex-direction: column;
+}
+
+#section4 {
+    display: none;
+}
+
+#section5 {
+    display: none;
+}
+
+#canvasHost {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: rgb(112, 20, 20);
+    font-style: italic;
+    align-self: center;
+}
